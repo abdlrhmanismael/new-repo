@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/components/wallet.css" />
+  </head>
+
+  <body>
+    <div class="select-btn m-4 d-flex">
+      <button
+        class="slct-btn rounded-4 p-3 border border-2 border-dark-subtle text-secondary mx-2"
+      >
+        Electronic Payment
+      </button>
+      <button
+        class="slct-btn rounded-4 p-3 border border-2 border-dark-subtle text-secondary mx-2"
+      >
+        wallet
+      </button>
+      <button
+        class="slct-btn rounded-4 p-3 border border-2 border-dark-subtle text-secondary mx-2 active"
+      >
+        Manual payment
+      </button>
+    </div>
+    <div class="all-payment-page d-md-flex m-3">
+      <div class="all-payment p-3">
+        <div class="all-methods bg-white p-3 rounded-4">
+          <h6 class="text-secondary">Your Current Balance</h6>
+          <div
+            class="balance d-flex justify-content-between align-items-center"
+          >
+            <h4>200.00$</h4>
+            <button class="add-balance rounded-4 py-2 px-4">
+              <i class="fa-solid fa-plus add"></i> Add to Balance
+            </button>
+          </div>
+          <div class="note mt-4">
+            <h6>Note</h6>
+            <div class="note-info bg-white">
+              <p class="note-text p-3 text-secondary">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Dolores odit officiis repellat unde debitis beatae officia in
+                quas atque dignissimos
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="order-summery p-3 border rounded-4 m-2 h-100">
+        <h6>order summery</h6>
+
+        <table class="table">
+          <p class="m-0 p-2 border-bottom">English Course</p>
+          <tbody>
+            <tr>
+              <td>lesson 1</td>
+              <td>1 hour</td>
+              <td>10$</td>
+              <td><i class="fa-solid fa-trash text-danger"></i></td>
+            </tr>
+            <tr>
+              <td>lesson 2</td>
+              <td>1 hour</td>
+              <td>10$</td>
+              <td><i class="fa-solid fa-trash text-danger"></i></td>
+            </tr>
+            <tr>
+              <td>lesson 3</td>
+              <td>1 hour</td>
+              <td>10$</td>
+              <td><i class="fa-solid fa-trash text-danger"></i></td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="total d-flex justify-content-between">
+          <h5>total</h5>
+          <h5 class="price">50.00$</h5>
+        </div>
+        <div class="wallet d-flex justify-content-between mt-1">
+          <p class="text-secondary fs-6">wallet</p>
+          <h5 class="price text-danger">-50.00$</h5>
+        </div>
+        <button class="btn btn-checkout rounded-3 w-100 mt-3">checkout</button>
+      </div>
+    </div>
+  </body>
+  <script src="js/all.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</html>

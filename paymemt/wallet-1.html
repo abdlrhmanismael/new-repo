@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/components/wallet-1.css" />
+  </head>
+  <body>
+    <div class="wallet-head m-3">
+      <h6 class="text-secondary">Your Current Balance</h6>
+      <div class="balance d-md-flex justify-content-between align-items-center">
+        <h4>200.00$</h4>
+        <div class="d-md-flex align-items-center">
+          <button class="active rounded-4 py-2 px-4 m-1">
+            <i class="fa-solid fa-plus add"></i> Add to Balance
+          </button>
+          <button class="hold rounded-4 py-2 px-4">
+            <i class="fa-regular fa-credit-card crediticon"></i> Save Cards
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="all-payment p-3">
+      <div class="all-methods bg-white p-3 rounded-4">
+        <h6>Add To Balance</h6>
+        <div class="amount text-center">
+          <p class="text-secondary mb-1">Enter Amount</p>
+          <input
+            type="number"
+            class="amount-input fs-1 text-center"
+            value="100"
+          />
+        </div>
+        <div class="quick-select">
+          <input
+            type="radio"
+            class="btn-check"
+            name="options-base"
+            id="option5"
+            autocomplete="off"
+          />
+          <label class="btn-radio rounded-4 m=-1" for="option5">100$</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="options-base"
+            id="option6"
+            autocomplete="off"
+          />
+          <label class="btn-radio rounded-4 m-1" for="option6">200$</label>
+          <input
+            type="radio"
+            class="btn-check"
+            name="options-base"
+            id="option7"
+            autocomplete="off"
+          />
+          <label class="btn-radio rounded-4 m-1" for="option7">300$</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="options-base"
+            id="option8"
+            autocomplete="off"
+          />
+          <label class="btn-radio rounded-4 m-1" for="option8">500$</label>
+        </div>
+        <div
+          class="payment-method mt-3 d-flex justify-content-between align-items-center note-info"
+        >
+          <div class="all-payment-info d-flex align-items-center p-3">
+            <i class="fa-brands fa-cc-visa fs-1"></i>
+            <div class="payment-info ms-3">
+              <h6>Visa</h6>
+              <p class="text-secondary mb-0">************1234</p>
+            </div>
+          </div>
+          <div class="change">
+            <button class="bg-white text-danger me-4 mb-0 border border-0">
+              Change
+            </button>
+          </div>
+        </div>
+        <div class="note mt-4">
+          <h6>Note</h6>
+          <div class="note-info bg-white">
+            <p class="note-text p-3 text-secondary">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores
+              odit officiis repellat unde debitis beatae officia in quas atque
+              dignissimos
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="js/all.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script></script>
+</html>

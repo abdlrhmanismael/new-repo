@@ -1,0 +1,18 @@
+:root {
+  --open-green: #95ddd3;
+  --dark-green: #1ab69d;
+  --open-blue: #dfdff5;
+  --dark-blue: #272a96;
+}
+.paid {
+  background-color: #f4f9fb;
+  width: 400px;
+}
+.lessons {
+  background-color: var(--dark-green);
+  border: none;
+  font-size: 13px;
+}
+.info {
+  font-size: 15px;
+}

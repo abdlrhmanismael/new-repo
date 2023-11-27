@@ -1,0 +1,44 @@
+:root {
+  --open-green: #95ddd3;
+  --dark-green: #1ab69d;
+  --open-blue: #dfdff5;
+  --dark-blue: #272a96;
+}
+.form-check-input:checked {
+  background-color: var(--dark-green);
+  border-color: var(--dark-green);
+}
+.all-payment {
+  background-color: #e4f2f6;
+  border-radius: 13px;
+  flex-basis: 50%;
+}
+.card-ifno {
+  border-color: var(--dark-green);
+}
+.card-ifno:focus {
+  border-color: var(--dark-green);
+  outline: 0;
+  box-shadow: none;
+}
+.note-info {
+  border: 1px solid var(--dark-green);
+  border-radius: 13px;
+}
+
+.order-summery .total .price {
+  color: var(--dark-green);
+}
+.order-summery {
+  flex-basis: 50%;
+}
+.slct-btn {
+  border: none;
+  background-color: white;
+  width: 200px;
+}
+.active {
+  background-color: var(--dark-green);
+  color: white !important ;
+  border: none !important;
+}
