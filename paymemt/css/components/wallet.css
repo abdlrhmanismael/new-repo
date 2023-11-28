@@ -1,0 +1,64 @@
+:root {
+  --open-green: #95ddd3;
+  --dark-green: #1ab69d;
+  --open-blue: #dfdff5;
+  --dark-blue: #272a96;
+}
+.slct-manual:focus {
+  border-color: var(--dark-green);
+  outline: 0;
+  box-shadow: none;
+}
+.slct-btn {
+  border: none;
+  background-color: white;
+  width: 200px;
+}
+.active {
+  background-color: var(--dark-green);
+  color: white !important ;
+  border: none !important;
+}
+
+.all-payment {
+  background-color: #e4f2f6;
+  border-radius: 13px;
+  flex-basis: 50%;
+}
+label {
+  color: var(--dark-green);
+  background-color: #f4f9fb;
+}
+.upload {
+  border-color: var(--dark-green) !important;
+}
+
+.note-info {
+  border: 1px solid var(--dark-green);
+  border-radius: 13px;
+}
+.order-summery {
+  flex-basis: 50%;
+}
+.order-summery .total .price {
+  color: var(--dark-green);
+}
+.all-methods {
+  min-height: 400px;
+}
+.add-balance {
+  background-color: #e5f8f6;
+  color: var(--dark-green);
+  border: none;
+}
+.add {
+  color: var(--dark-green);
+}
+.btn-checkout {
+  background-color: var(--dark-green);
+  color: white;
+}
+.btn-checkout:hover {
+  background-color: var(--dark-green);
+  color: white;
+}

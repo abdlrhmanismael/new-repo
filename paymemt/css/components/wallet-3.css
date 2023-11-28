@@ -1,0 +1,30 @@
+:root {
+  --open-green: #95ddd3;
+  --dark-green: #1ab69d;
+  --open-blue: #dfdff5;
+  --dark-blue: #272a96;
+}
+.form-check-input:checked {
+  background-color: var(--dark-green);
+  border-color: var(--dark-green);
+}
+.all-payment {
+  background-color: #e4f2f6;
+  border-radius: 13px;
+}
+.card-ifno {
+  border-color: var(--dark-green);
+}
+.card-ifno:focus {
+  border-color: var(--dark-green);
+  outline: 0;
+  box-shadow: none;
+}
+.btn-add {
+  background-color: var(--dark-green);
+  color: white;
+}
+.btn-add:hover {
+  background-color: var(--dark-green);
+  color: white;
+}

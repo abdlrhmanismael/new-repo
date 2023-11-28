@@ -1,0 +1,27 @@
+:root {
+  --open-green: #95ddd3;
+  --dark-green: #1ab69d;
+  --open-blue: #dfdff5;
+  --dark-blue: #272a96;
+}
+.active {
+  background-color: var(--dark-green);
+  color: white;
+  border: none;
+}
+.add {
+  color: white;
+}
+.hold {
+  background-color: #e5f8f6;
+  color: var(--dark-green);
+  border: none;
+}
+.all-payment {
+  background-color: #e4f2f6;
+  border-radius: 13px;
+}
+.note-info {
+  border: 1px solid var(--dark-green);
+  border-radius: 13px;
+}
